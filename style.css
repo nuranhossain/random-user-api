@@ -1,0 +1,102 @@
+body {
+  background: black;
+}
+
+ol {
+  display: flex;
+  justify-content: end;
+  margin-right: 50px;
+  margin-top: 100px;
+}
+ol li {
+  left: 100%;
+  right: 0;
+  color: white;
+}
+.title {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+  font-size: 50px;
+}
+.span {
+  color: gray;
+}
+.social i {
+  cursor: pointer;
+  margin-right: 25px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 25rem;
+  text-align: center;
+  margin: auto;
+  margin-top: 120px;
+}
+.card img {
+  max-width: 150px;
+  border-radius: 50%;
+  max-height: 150px;
+  margin: auto;
+  margin-top: -70px;
+}
+.information {
+  font-size: 24px;
+  color: black;
+}
+.info {
+  color: gray;
+  height: 70px;
+}
+.social {
+  margin-top: 10px;
+  color: orangered;
+}
+.social i {
+  transition: 0.5s;
+  padding: 10px;
+}
+.social i:hover {
+  font-size: 32px;
+  padding: 3px;
+}
+
+.card .myButton {
+  padding: 7px 30px;
+  background-color: orangered;
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+.card .myButton:hover {
+  border: 1px solid orangered;
+  color: orangered;
+}
+
+.friend-list {
+  width: 22rem;
+}
+
+ol {
+  display: block;
+}
+
+ol li {
+  color: white;
+  margin-bottom: 15px;
+  display: flex;
+}
+li img {
+  margin-right: 15px;
+  margin-left: 5px;
+}
+.friend-list h3 {
+  color: white;
+}
+
+.rounded-full {
+  border-radius: 50%;
+}
