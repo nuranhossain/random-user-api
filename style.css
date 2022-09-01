@@ -3,15 +3,18 @@ body {
 }
 
 ol {
-  display: flex;
-  justify-content: end;
   margin-right: 50px;
-  margin-top: 100px;
+  display: block;
+  list-style: decimal;
+  margin-top: 30px;
+  padding-left: 0px;
+  list-style-type: square;
+  color: white;
 }
 ol li {
   left: 100%;
-  right: 0;
   color: white;
+  display: flex;
 }
 .title {
   text-align: center;
@@ -80,14 +83,14 @@ ol li {
   width: 22rem;
 }
 
-ol {
-  display: block;
-}
-
 ol li {
   color: white;
+  list-style: decimal;
   margin-bottom: 15px;
   display: flex;
+}
+ol li p {
+  margin-top: 10px;
 }
 li img {
   margin-right: 15px;
@@ -99,4 +102,7 @@ li img {
 
 .rounded-full {
   border-radius: 50%;
+}
+.friend-list {
+  margin-top: 60px;
 }
