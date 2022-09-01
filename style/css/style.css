@@ -28,7 +28,6 @@ ol li {
 }
 .social i {
   cursor: pointer;
-  margin-right: 25px;
   font-size: 24px;
   margin-bottom: 20px;
 }
@@ -83,7 +82,9 @@ ol li {
 }
 
 .friend-list {
-  width: 22rem;
+  width: 18rem;
+  text-align: center;
+  margin: auto;
 }
 
 ol li {
@@ -105,7 +106,4 @@ li img {
 
 .rounded-full {
   border-radius: 50%;
-}
-.friend-list {
-  margin-top: 60px;
 }
